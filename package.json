@@ -3,6 +3,10 @@
   "version": "0.1.0",
   "description": "A quick way to add individual files in git",
   "main": "dist/index.js",
+  "bin": {
+    "ga": "dist/index.js",
+    "git-add": "dist/index.js"
+  },
   "scripts": {
     "build": "babel --presets=es2015 src/ -d dist/",
     "prepublish": "npm run build"
