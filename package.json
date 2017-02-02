@@ -1,10 +1,10 @@
 {
-  "name": "git-add",
+  "name": "git-add-file",
   "version": "0.1.0",
   "description": "A quick way to add individual files in git",
   "main": "dist/index.js",
   "bin": {
-    "git-add": "dist/index.js"
+    "git-add-file": "dist/index.js"
   },
   "scripts": {
     "build": "babel --presets=es2015 src/ -d dist/",
