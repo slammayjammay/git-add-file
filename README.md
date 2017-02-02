@@ -11,6 +11,8 @@ $ npm install
 $ npm pack
 # install the generated tarball
 $ npm install -g git-add-file-X.X.X.tgz # XXX is the semantic version
+# remove the repo
+$ cd ../ && rm -rf git-add-file
 ```
 
 I alias this with "ga":
